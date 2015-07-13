@@ -26,46 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73286fe1-6009-42b2-9861-6fb853d910dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/plus.imageset/Plus@2x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/plus.imageset/Plus@3x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/bottle.imageset/bottle@2x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/bottle.imageset/bottle@3x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/face_lotion_muji_high_moisture.imageset/face_lotion_muji_high_moisture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/face_lotion_muji_moist.imageset/face_lotion_muji_moist.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/face_lotion_muji_organic_moisture_lotion.imageset/face_lotion_muji_organic_moisture_lotion.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/foundation.imageset/foundation@2x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/foundation.imageset/foundation@3x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/heart.imageset/heart@2x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/heart.imageset/heart@3x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/lipstick.imageset/lipstick@2x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/lipstick.imageset/lipstick@3x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/tube.imageset/tube@2x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/tube.imageset/tube@3x.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/bottle.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/face_lotion_muji_high_moisture.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/face_lotion_muji_moist.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/face_lotion_muji_organic_moisture_lotion.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/foundation.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/heart.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/lipstick.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/plus.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/tube.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/en.lproj/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/ja.lproj/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/en.lproj/LaunchScreen.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/ja.lproj/LaunchScreen.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Base.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/en.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/ja.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/ja.lproj/Main.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/SKAddItemCell.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/SKAddItemCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/SKAddItemViewController.swift" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Skiny/Info.plist" afterPath="$PROJECT_DIR$/Skiny/Base.lproj/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/282179.imageset/282179.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/brand.imageset/brand.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/brand_list.imageset/brand_list.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/logos.imageset/logos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/282179.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/brand.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/brand_list.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/Images.xcassets/logos.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/SKAddItemListViewController.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/SKItemTopView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Skiny/SKItemTopView.xib" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skiny.xcodeproj/project.xcworkspace/xcuserdata/yoshiyukikuga.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Skiny.xcodeproj/project.xcworkspace/xcuserdata/yoshiyukikuga.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skiny/Base.lproj/LaunchScreen.xib" afterPath="$PROJECT_DIR$/Skiny/Base.lproj/LaunchScreen.xib" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skiny/SKAddItemViewController.swift" afterPath="$PROJECT_DIR$/Skiny/SKAddItemViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skiny/SKUserItemListViewController.swift" afterPath="$PROJECT_DIR$/Skiny/SKUserItemListViewController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skiny.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Skiny.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Skiny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +60,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_6_8.2_x86_64_1" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
   <component name="FavoritesManager">
     <favorites_list name="Skiny" />
   </component>
@@ -102,8 +79,8 @@
       <file leaf-file-name="SKAddItemViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Skiny/SKAddItemViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62637365" vertical-offset="0" max-vertical-offset="495">
-              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.8541667" vertical-offset="0" max-vertical-offset="750">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -112,7 +89,7 @@
       <file leaf-file-name="SKUserItemListViewController.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Skiny/SKUserItemListViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="930">
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="930">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
@@ -126,13 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SKUserItemListCell.xib" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Skiny/SKUserItemListCell.xib">
-          <provider selected="true" editor-type-id="appcode-designer">
-            <state ui-designer-zoom="1.0" />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -141,10 +111,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard" />
         <option value="$PROJECT_DIR$/Skiny/SKUserItemListCell.xib" />
         <option value="$PROJECT_DIR$/Skiny/SKUserItemListCell.swift" />
         <option value="$PROJECT_DIR$/Skiny/SKUserItemListViewController.swift" />
+        <option value="$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard" />
         <option value="$PROJECT_DIR$/Skiny/SKAddItemViewController.swift" />
       </list>
     </option>
@@ -207,6 +177,24 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Skiny" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Skiny" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main.storyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -214,6 +202,7 @@
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.Skiny">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Skiny" TARGET_NAME="Skiny" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Skiny" RUN_TARGET_NAME="Skiny" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -237,6 +226,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="73286fe1-6009-42b2-9861-6fb853d910dc" name="Default" comment="" />
@@ -247,29 +239,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -295,12 +287,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard">
-      <provider selected="true" editor-type-id="appcode-designer">
-        <state ui-designer-zoom="1.0" />
+    <entry file="file://$PROJECT_DIR$/Skiny/SKUserItemListCell.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Skiny/SKUserItemListCell.xib">
+    <entry file="file://$PROJECT_DIR$/Skiny/SKAddItemViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Skiny/SKUserItemListViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="930">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard">
       <provider selected="true" editor-type-id="appcode-designer">
         <state ui-designer-zoom="1.0" />
       </provider>
@@ -321,10 +332,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Skiny/Base.lproj/Main.storyboard">
+      <provider selected="true" editor-type-id="appcode-designer">
+        <state ui-designer-zoom="1.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Skiny/SKAddItemViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62637365" vertical-offset="0" max-vertical-offset="495">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.8541667" vertical-offset="0" max-vertical-offset="750">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding />
         </state>
       </provider>

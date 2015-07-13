@@ -37,7 +37,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: SKUserItemListCell = tableView.dequeueReusableCellWithIdentifier("UserItemListCell", forIndexPath: indexPath) as SKUserItemListCell
+        let cell: SKUserItemListCell = tableView.dequeueReusableCellWithIdentifier("UserItemListCell", forIndexPath: indexPath) as! SKUserItemListCell
         cell.userItemImageView.image = UIImage(named: "dummy.jpg")
         cell.userItemCategoryLabel.text = userItem[indexPath.row]["category"]
         cell.userItemBrandLabel.text = userItem[indexPath.row]["brand"]
