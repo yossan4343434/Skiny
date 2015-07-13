@@ -5,3 +5,21 @@
   Created by Yoshiyuki Kuga on 2015/07/11.
   Copyright (c) 2015年 Gruppy. All rights reserved.
 */
+
+"lotion" = "化粧水";
+"muji" = "無印良品";
+"wed" = "水";
+"thu" = "木";
+"fri" = "金";
+"sat" = "土";
+"sun" = "日";
+
+"arukas_sasebo" = "アルカス佐世保";
+"nagasaki_brick_hall" = "長崎ブリックホール";
+
+"lerge_hall" = "大ホール";
+"medium_hall" = "中ホール";
+"event_hall" = "イベントホール";
+"international_discussion_room" = "国際会議場";
+
+"refer_to_the_HP" = "詳細はホームページを御覧下さい";
