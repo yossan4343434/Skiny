@@ -35,7 +35,7 @@ class SKAddItemViewController: UIViewController {
     }
 
     func selectCategoryTapped(sender: UITapGestureRecognizer) {
-        print("selectCategoryTapped")
+        performSegueWithIdentifier("toSelectItemListView", sender: nil)
     }
 
     func selectBrandTapped(sender: UITapGestureRecognizer) {
@@ -48,6 +48,12 @@ class SKAddItemViewController: UIViewController {
 
     func submitTapped(sender: UITapGestureRecognizer) {
         print("submitTapped")
+    }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "toSelectItemListView" {
+            return
+        }
     }
 
 }

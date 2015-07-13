@@ -1,5 +1,5 @@
 //
-//  SKAddItemListViewController.swift
+//  SKSelectItemListViewController.swift
 //  Skiny
 //
 //  Created by Yoshiyuki Kuga on 2015/07/13.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class SKAddItemListViewController: UIViewController {
+class SKSelectItemListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("hoge")
     }
 
     override func didReceiveMemoryWarning() {

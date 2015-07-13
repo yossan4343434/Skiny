@@ -52,7 +52,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynx-c2-Yrt">
-                                <rect key="frame" x="15" y="35" width="569" height="120"/>
+                                <rect key="frame" x="15" y="79" width="569" height="120"/>
                                 <subviews>
                                     <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectCategory" translatesAutoresizingMaskIntoConstraints="NO" id="xpg-3q-ThG">
                                         <rect key="frame" x="0.0" y="0.0" width="569" height="120"/>
@@ -83,7 +83,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-Rd-xfr">
-                                <rect key="frame" x="15" y="170" width="570" height="120"/>
+                                <rect key="frame" x="15" y="214" width="570" height="120"/>
                                 <subviews>
                                     <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="selectBrand" translatesAutoresizingMaskIntoConstraints="NO" id="eF3-Jf-1e8">
                                         <rect key="frame" x="0.0" y="0.0" width="569" height="120"/>
@@ -110,7 +110,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DT-ID-seh">
-                                <rect key="frame" x="15" y="305" width="570" height="120"/>
+                                <rect key="frame" x="15" y="349" width="570" height="120"/>
                                 <subviews>
                                     <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="selectCosmetic" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-Ve-b63">
                                         <rect key="frame" x="0.0" y="0.0" width="569" height="120"/>
@@ -139,7 +139,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ZU-bv-sAx">
-                                <rect key="frame" x="15" y="440" width="570" height="100"/>
+                                <rect key="frame" x="15" y="484" width="570" height="100"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus" translatesAutoresizingMaskIntoConstraints="NO" id="isA-8n-GMP">
                                         <rect key="frame" x="255" y="20" width="60" height="60"/>
@@ -174,26 +174,23 @@
                             <constraint firstItem="9DT-ID-seh" firstAttribute="leading" secondItem="ktL-hC-auD" secondAttribute="leading" constant="15" id="xqd-Hi-gZv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="1" title="" image="tabBarItem_plus" selectedImage="tabBarItem_plus" id="cjb-Su-gfy">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tabBarItem_plus"/>
-                        </userDefinedRuntimeAttributes>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="8UI-R0-hiw"/>
                     <connections>
                         <outlet property="selectBrandView" destination="XC8-Rd-xfr" id="DNR-R0-nL8"/>
                         <outlet property="selectCategoryView" destination="ynx-c2-Yrt" id="xPU-IY-7WU"/>
                         <outlet property="selectCosmeticView" destination="9DT-ID-seh" id="tbr-KQ-X4j"/>
                         <outlet property="submitView" destination="7ZU-bv-sAx" id="KTy-mk-5X4"/>
+                        <segue destination="1ig-uk-l7Y" kind="show" identifier="toSelectItemListView" id="TGP-2a-qR4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDV-Be-ziQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="771"/>
+            <point key="canvasLocation" x="1886" y="771"/>
         </scene>
-        <!--Add Item List View Controller-->
+        <!--Select Item List View Controller-->
         <scene sceneID="ezp-dY-KX8">
             <objects>
-                <viewController id="1ig-uk-l7Y" customClass="SKAddItemListViewController" customModule="Skiny" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1ig-uk-l7Y" customClass="SKSelectItemListViewController" customModule="Skiny" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kOF-W5-Nlc"/>
                         <viewControllerLayoutGuide type="bottom" id="0SR-WQ-Qjo"/>
@@ -203,22 +200,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Aj4-AM-8t0">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Aj4-AM-8t0" secondAttribute="trailing" id="Bkk-Ry-tfP"/>
-                            <constraint firstItem="Aj4-AM-8t0" firstAttribute="leading" secondItem="NED-Tr-sWf" secondAttribute="leading" id="DaU-8E-B9V"/>
-                            <constraint firstItem="0SR-WQ-Qjo" firstAttribute="top" secondItem="Aj4-AM-8t0" secondAttribute="bottom" id="gIX-nx-zYr"/>
-                            <constraint firstItem="Aj4-AM-8t0" firstAttribute="top" secondItem="kOF-W5-Nlc" secondAttribute="bottom" id="lVO-Bn-PvF"/>
+                            <constraint firstAttribute="trailing" secondItem="Aj4-AM-8t0" secondAttribute="trailing" id="26D-BK-nFq"/>
+                            <constraint firstItem="Aj4-AM-8t0" firstAttribute="leading" secondItem="NED-Tr-sWf" secondAttribute="leading" id="RkJ-LS-IFc"/>
+                            <constraint firstItem="Aj4-AM-8t0" firstAttribute="top" secondItem="NED-Tr-sWf" secondAttribute="top" id="lr6-Bw-Sb4"/>
+                            <constraint firstItem="0SR-WQ-Qjo" firstAttribute="top" secondItem="Aj4-AM-8t0" secondAttribute="bottom" id="yRZ-Tk-yuE"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="698-2d-Ofu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1801" y="771"/>
+            <point key="canvasLocation" x="2613" y="771"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0WY-Xz-QBA">
@@ -232,12 +230,35 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="J8F-eW-H2D"/>
-                        <segue destination="TPk-VE-m2i" kind="relationship" relationship="viewControllers" id="ovY-EM-cAe"/>
+                        <segue destination="8gH-gf-26A" kind="relationship" relationship="viewControllers" id="ovY-EM-cAe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dQf-mh-ck8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="360" y="366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qn3-15-G0r">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8gH-gf-26A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tabBarItem_plus" selectedImage="tabBarItem_plus" id="cjb-Su-gfy">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tabBarItem_plus"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MR9-rp-FdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TPk-VE-m2i" kind="relationship" relationship="rootViewController" id="vrE-Tn-HQz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uqN-FX-tZu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1074" y="771"/>
         </scene>
     </scenes>
     <resources>
