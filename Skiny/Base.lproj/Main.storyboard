@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="-326"/>
+            <point key="canvasLocation" x="1074" y="-182"/>
         </scene>
         <!--Add Item View Controller-->
         <scene sceneID="ZCk-dP-Lhr">
@@ -188,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDV-Be-ziQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1106" y="769"/>
+            <point key="canvasLocation" x="1074" y="771"/>
         </scene>
         <!--Add Item List View Controller-->
         <scene sceneID="ezp-dY-KX8">
@@ -218,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="698-2d-Ofu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1823" y="463"/>
+            <point key="canvasLocation" x="1801" y="771"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0WY-Xz-QBA">

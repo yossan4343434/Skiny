@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "muji_aging_light_toning_water_light.jpg"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "face_lotion_muji_high_moisture.jpg"
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
