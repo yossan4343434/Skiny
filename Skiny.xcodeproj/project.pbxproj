@@ -13,10 +13,11 @@
 		EDA448C51B50E075002CCF9E /* SkinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA448C41B50E075002CCF9E /* SkinyTests.swift */; };
 		EDA448CF1B50E342002CCF9E /* SKUserItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA448CE1B50E342002CCF9E /* SKUserItemListViewController.swift */; };
 		EDA448D21B50E9DC002CCF9E /* SKUserItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA448D01B50E9DC002CCF9E /* SKUserItemListCell.swift */; };
-		EDA448D31B50E9DC002CCF9E /* SKUserItemListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA448D11B50E9DC002CCF9E /* SKUserItemListCell.xib */; };
 		EDB4F2481B51106400B618D0 /* SKAddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4F2471B51106400B618D0 /* SKAddItemViewController.swift */; };
 		EDB4F2541B511A9400B618D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB4F2561B511A9400B618D0 /* Localizable.strings */; };
 		EDB4F26B1B51F1C500B618D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB4F26A1B51F1C500B618D0 /* Images.xcassets */; };
+		EDB4F2711B523E5600B618D0 /* SKUserItemListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB4F2731B523E5600B618D0 /* SKUserItemListCell.xib */; };
+		EDB4F27F1B528E4B00B618D0 /* SKItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4F27E1B528E4B00B618D0 /* SKItemDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +40,19 @@
 		EDA448C41B50E075002CCF9E /* SkinyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinyTests.swift; sourceTree = "<group>"; };
 		EDA448CE1B50E342002CCF9E /* SKUserItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKUserItemListViewController.swift; sourceTree = "<group>"; };
 		EDA448D01B50E9DC002CCF9E /* SKUserItemListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKUserItemListCell.swift; sourceTree = "<group>"; };
-		EDA448D11B50E9DC002CCF9E /* SKUserItemListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKUserItemListCell.xib; sourceTree = "<group>"; };
 		EDB4F2471B51106400B618D0 /* SKAddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAddItemViewController.swift; sourceTree = "<group>"; };
 		EDB4F24D1B511A1600B618D0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		EDB4F24E1B511A1600B618D0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EDB4F24F1B511A5000B618D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		EDB4F2511B511A5600B618D0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/Info.plist; sourceTree = "<group>"; };
 		EDB4F2551B511A9400B618D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EDB4F2571B511AB500B618D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EDB4F2581B511AB600B618D0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EDB4F25C1B511AFB00B618D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EDB4F25D1B511BB200B618D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		EDB4F26A1B51F1C500B618D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDB4F27B1B523F3900B618D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SKUserItemListCell.xib; sourceTree = "<group>"; };
+		EDB4F27C1B528A7E00B618D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EDB4F27D1B528A8100B618D0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EDB4F27E1B528E4B00B618D0 /* SKItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKItemDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 				EDA448AE1B50E075002CCF9E /* AppDelegate.swift */,
 				EDA448B21B50E075002CCF9E /* Main.storyboard */,
 				EDA448CE1B50E342002CCF9E /* SKUserItemListViewController.swift */,
+				EDB4F27E1B528E4B00B618D0 /* SKItemDetailViewController.swift */,
 				EDA448D01B50E9DC002CCF9E /* SKUserItemListCell.swift */,
-				EDA448D11B50E9DC002CCF9E /* SKUserItemListCell.xib */,
+				EDB4F2731B523E5600B618D0 /* SKUserItemListCell.xib */,
 				EDB4F2471B51106400B618D0 /* SKAddItemViewController.swift */,
 				EDB4F26A1B51F1C500B618D0 /* Images.xcassets */,
 				EDA448B71B50E075002CCF9E /* LaunchScreen.xib */,
@@ -216,7 +219,7 @@
 				EDB4F26B1B51F1C500B618D0 /* Images.xcassets in Resources */,
 				EDA448B41B50E075002CCF9E /* Main.storyboard in Resources */,
 				EDA448B91B50E075002CCF9E /* LaunchScreen.xib in Resources */,
-				EDA448D31B50E9DC002CCF9E /* SKUserItemListCell.xib in Resources */,
+				EDB4F2711B523E5600B618D0 /* SKUserItemListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +241,7 @@
 				EDB4F2481B51106400B618D0 /* SKAddItemViewController.swift in Sources */,
 				EDA448CF1B50E342002CCF9E /* SKUserItemListViewController.swift in Sources */,
 				EDA448D21B50E9DC002CCF9E /* SKUserItemListCell.swift in Sources */,
+				EDB4F27F1B528E4B00B618D0 /* SKItemDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +297,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				EDB4F2551B511A9400B618D0 /* Base */,
-				EDB4F2571B511AB500B618D0 /* en */,
-				EDB4F2581B511AB600B618D0 /* ja */,
+				EDB4F27C1B528A7E00B618D0 /* en */,
+				EDB4F27D1B528A8100B618D0 /* ja */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EDB4F2731B523E5600B618D0 /* SKUserItemListCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB4F27B1B523F3900B618D0 /* Base */,
+			);
+			name = SKUserItemListCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

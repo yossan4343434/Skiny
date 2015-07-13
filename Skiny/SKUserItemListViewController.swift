@@ -12,7 +12,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
 
     @IBOutlet weak var userItemListTableView: UITableView!
 
-    let userItem = [["category": "化粧水", "brand": "無印良品", "name": "化粧水・敏感肌用 高保湿タイプ"], ["category": "化粧水", "brand": "無印良品", "name": "化粧水・敏感肌用 高保湿タイプ"], ["category": "化粧水", "brand": "無印良品", "name": "化粧水・敏感肌用 高保湿タイプ"]]
+    let userItem = [["category": "lotion", "brand": NSLocalizedString("muji", comment: "muji"), "name": "化粧水・敏感肌用 高保湿タイプ"], ["category": "化粧水", "brand": "無印良品", "name": "化粧水・敏感肌用 高保湿タイプ"], ["category": "化粧水", "brand": "無印良品", "name": "化粧水・敏感肌用 オーガニック化粧水 高保湿タイプ"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
