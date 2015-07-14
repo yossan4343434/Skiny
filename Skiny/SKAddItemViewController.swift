@@ -14,6 +14,9 @@ class SKAddItemViewController: UIViewController {
     @IBOutlet weak var selectBrandView: UIView!
     @IBOutlet weak var selectNameView: UIView!
     @IBOutlet weak var submitView: UIView!
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var brandLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBAction func didSelectContent(segue: UIStoryboardSegue) {}
 
     override func viewDidLoad() {

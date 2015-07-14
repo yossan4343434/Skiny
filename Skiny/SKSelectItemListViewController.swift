@@ -13,6 +13,7 @@ class SKSelectItemListViewController: UIViewController, UITableViewDelegate, UIT
     var selectItemType = NSInteger()
     var selectItemKey = NSString()
     var selectItemList = NSArray()
+    var selectedContent = NSString()
 
     @IBOutlet weak var selectItemListTableView: UITableView!
 
@@ -72,7 +73,16 @@ class SKSelectItemListViewController: UIViewController, UITableViewDelegate, UIT
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        selectedContent = selectItemList[indexPath.row]["name"] as! String
         performSegueWithIdentifier("didSelectContent", sender: nil)
+    }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "didSelectContent" {
+            var addItemViewController = SKAddItemViewController()
+            addItemViewController = segue.destinationViewController as! SKAddItemViewController
+            addItemViewController.categoryLabel.text = selectedContent as String
+        }
     }
 
 }

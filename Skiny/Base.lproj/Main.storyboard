@@ -187,6 +187,9 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="Tms-q6-MPD"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="brandLabel" destination="IOp-PP-EtO" id="mM0-aX-X5t"/>
+                        <outlet property="categoryLabel" destination="FMg-7R-bjO" id="5Lk-ab-QHC"/>
+                        <outlet property="nameLabel" destination="81R-OQ-ddo" id="GHG-u4-f3d"/>
                         <outlet property="selectBrandView" destination="XC8-Rd-xfr" id="DNR-R0-nL8"/>
                         <outlet property="selectCategoryView" destination="ynx-c2-Yrt" id="xPU-IY-7WU"/>
                         <outlet property="selectNameView" destination="9DT-ID-seh" id="ql6-kH-aaE"/>
