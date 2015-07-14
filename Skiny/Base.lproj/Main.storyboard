@@ -30,7 +30,7 @@
                             <constraint firstItem="5y9-cF-RrH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rq2-h3-IbC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="aS8-ZD-4nN"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="favorites" id="aS8-ZD-4nN"/>
                     <connections>
                         <outlet property="userItemListTableView" destination="5y9-cF-RrH" id="gV1-EC-OKW"/>
                     </connections>
