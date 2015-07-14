@@ -62,15 +62,15 @@
                                         <rect key="frame" x="0.0" y="0.0" width="569" height="120"/>
                                         <gestureRecognizers/>
                                     </imageView>
-                                    <label userInteractionEnabled="NO" alpha="0.89999999999999991" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMg-7R-bjO">
-                                        <rect key="frame" x="225" y="45" width="120" height="30"/>
+                                    <label userInteractionEnabled="NO" alpha="0.89999999999999991" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カテゴリを選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMg-7R-bjO">
+                                        <rect key="frame" x="195" y="45" width="180" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="PXh-dV-wit"/>
+                                            <constraint firstAttribute="width" constant="180" id="PXh-dV-wit"/>
                                             <constraint firstAttribute="height" constant="30" id="luT-Az-nYG"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
                                         <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -92,15 +92,15 @@
                                     <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_brand" translatesAutoresizingMaskIntoConstraints="NO" id="eF3-Jf-1e8">
                                         <rect key="frame" x="0.0" y="0.0" width="570" height="120"/>
                                     </imageView>
-                                    <label userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOp-PP-EtO">
-                                        <rect key="frame" x="225" y="45" width="120" height="30"/>
+                                    <label userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ブランドを選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOp-PP-EtO">
+                                        <rect key="frame" x="195" y="45" width="180" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="ShB-I8-I8c"/>
-                                            <constraint firstAttribute="width" constant="120" id="a2y-lB-3T7"/>
+                                            <constraint firstAttribute="width" constant="180" id="a2y-lB-3T7"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
                                         <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -110,28 +110,28 @@
                                     <constraint firstItem="eF3-Jf-1e8" firstAttribute="top" secondItem="XC8-Rd-xfr" secondAttribute="top" id="AX6-iv-p0A"/>
                                     <constraint firstAttribute="bottom" secondItem="eF3-Jf-1e8" secondAttribute="bottom" id="Dqg-FH-haG"/>
                                     <constraint firstAttribute="height" constant="120" id="Ldo-rW-riB"/>
-                                    <constraint firstAttribute="centerX" secondItem="IOp-PP-EtO" secondAttribute="centerX" id="Try-pz-dZS"/>
+                                    <constraint firstAttribute="centerX" secondItem="IOp-PP-EtO" secondAttribute="centerX" id="QgE-aN-fRO"/>
+                                    <constraint firstAttribute="centerY" secondItem="IOp-PP-EtO" secondAttribute="centerY" id="Z6u-9e-Dy1"/>
                                     <constraint firstItem="eF3-Jf-1e8" firstAttribute="leading" secondItem="XC8-Rd-xfr" secondAttribute="leading" id="bP1-U4-pAv"/>
-                                    <constraint firstAttribute="centerY" secondItem="IOp-PP-EtO" secondAttribute="centerY" id="by9-J0-hFk"/>
                                     <constraint firstAttribute="trailing" secondItem="eF3-Jf-1e8" secondAttribute="trailing" id="urZ-fR-hqr"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DT-ID-seh">
                                 <rect key="frame" x="15" y="349" width="570" height="120"/>
                                 <subviews>
-                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_cosmetic" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-Ve-b63">
+                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_name" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-Ve-b63">
                                         <rect key="frame" x="0.0" y="0.0" width="570" height="120"/>
                                         <gestureRecognizers/>
                                     </imageView>
-                                    <label userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cosmetic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81R-OQ-ddo">
-                                        <rect key="frame" x="225" y="45" width="120" height="30"/>
+                                    <label userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品名を選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81R-OQ-ddo">
+                                        <rect key="frame" x="195" y="45" width="180" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="6Jp-t4-kdU"/>
-                                            <constraint firstAttribute="width" constant="120" id="WQS-aC-Rsq"/>
+                                            <constraint firstAttribute="width" constant="180" id="WQS-aC-Rsq"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
                                         <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -189,11 +189,11 @@
                     <connections>
                         <outlet property="selectBrandView" destination="XC8-Rd-xfr" id="DNR-R0-nL8"/>
                         <outlet property="selectCategoryView" destination="ynx-c2-Yrt" id="xPU-IY-7WU"/>
-                        <outlet property="selectCosmeticView" destination="9DT-ID-seh" id="tbr-KQ-X4j"/>
+                        <outlet property="selectNameView" destination="9DT-ID-seh" id="ql6-kH-aaE"/>
                         <outlet property="submitView" destination="7ZU-bv-sAx" id="KTy-mk-5X4"/>
                         <segue destination="1ig-uk-l7Y" kind="show" identifier="selectCategory" id="TGP-2a-qR4"/>
                         <segue destination="1ig-uk-l7Y" kind="show" identifier="selectBrand" id="ADh-Dv-735"/>
-                        <segue destination="1ig-uk-l7Y" kind="show" identifier="selectCosmetic" id="wMs-gd-R6a"/>
+                        <segue destination="1ig-uk-l7Y" kind="show" identifier="selectName" id="wMs-gd-R6a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDV-Be-ziQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -263,6 +263,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MR9-rp-FdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="0.0"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -278,7 +282,7 @@
         <image name="plus" width="400" height="400"/>
         <image name="select_brand" width="640" height="426"/>
         <image name="select_category" width="750" height="500"/>
-        <image name="select_cosmetic" width="650" height="517"/>
+        <image name="select_name" width="650" height="517"/>
         <image name="tab_bar_item_list" width="30" height="30"/>
         <image name="tab_bar_item_plus" width="30" height="30"/>
     </resources>

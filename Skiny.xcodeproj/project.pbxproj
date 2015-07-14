@@ -19,7 +19,7 @@
 		EDB4F26B1B51F1C500B618D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB4F26A1B51F1C500B618D0 /* Images.xcassets */; };
 		EDB4F2711B523E5600B618D0 /* SKUserItemListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB4F2731B523E5600B618D0 /* SKUserItemListCell.xib */; };
 		EDB4F27F1B528E4B00B618D0 /* SKItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4F27E1B528E4B00B618D0 /* SKItemDetailViewController.swift */; };
-		EDB4F2811B53AAC300B618D0 /* SKSelectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4F2801B53AAC300B618D0 /* SKSelectListViewController.swift */; };
+		EDB4F2811B53AAC300B618D0 /* SKSelectItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB4F2801B53AAC300B618D0 /* SKSelectItemListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		EDB4F26A1B51F1C500B618D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EDB4F27B1B523F3900B618D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SKUserItemListCell.xib; sourceTree = "<group>"; };
 		EDB4F27E1B528E4B00B618D0 /* SKItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKItemDetailViewController.swift; sourceTree = "<group>"; };
-		EDB4F2801B53AAC300B618D0 /* SKSelectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSelectListViewController.swift; sourceTree = "<group>"; };
+		EDB4F2801B53AAC300B618D0 /* SKSelectItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSelectItemListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 				EDA448CE1B50E342002CCF9E /* SKUserItemListViewController.swift */,
 				EDB4F27E1B528E4B00B618D0 /* SKItemDetailViewController.swift */,
 				EDB4F2471B51106400B618D0 /* SKAddItemViewController.swift */,
-				EDB4F2801B53AAC300B618D0 /* SKSelectListViewController.swift */,
+				EDB4F2801B53AAC300B618D0 /* SKSelectItemListViewController.swift */,
 				EDA448D01B50E9DC002CCF9E /* SKUserItemListCell.swift */,
 				EDB4F2731B523E5600B618D0 /* SKUserItemListCell.xib */,
 				EDB4F26A1B51F1C500B618D0 /* Images.xcassets */,
@@ -242,7 +242,7 @@
 				EDA448CF1B50E342002CCF9E /* SKUserItemListViewController.swift in Sources */,
 				EDA448D21B50E9DC002CCF9E /* SKUserItemListCell.swift in Sources */,
 				EDB4F27F1B528E4B00B618D0 /* SKItemDetailViewController.swift in Sources */,
-				EDB4F2811B53AAC300B618D0 /* SKSelectListViewController.swift in Sources */,
+				EDB4F2811B53AAC300B618D0 /* SKSelectItemListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
