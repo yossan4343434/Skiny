@@ -12,7 +12,6 @@ class SKSelectItemListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hoge")
     }
 
     override func didReceiveMemoryWarning() {

@@ -35,15 +35,15 @@ class SKAddItemViewController: UIViewController {
     }
 
     func selectCategoryTapped(sender: UITapGestureRecognizer) {
-        performSegueWithIdentifier("toSelectItemListView", sender: nil)
+        performSegueWithIdentifier("selectCategory", sender: nil)
     }
 
     func selectBrandTapped(sender: UITapGestureRecognizer) {
-        print("selectBrandTapped")
+        performSegueWithIdentifier("selectBrand", sender: nil)
     }
 
     func selectCosmeticTapped(sender: UITapGestureRecognizer) {
-        print("selectCosmeticTapped")
+        performSegueWithIdentifier("selectCosmetic", sender: nil)
     }
 
     func submitTapped(sender: UITapGestureRecognizer) {
@@ -51,7 +51,14 @@ class SKAddItemViewController: UIViewController {
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "toSelectItemListView" {
+        if segue.identifier == "selectCategory" {
+            print("category")
+            return
+        } else if segue.identifier == "selectCategory" {
+            print("brand")
+            return
+        } else if segue.identifier == "selectCosmetic" {
+            print("cosmetic")
             return
         }
     }

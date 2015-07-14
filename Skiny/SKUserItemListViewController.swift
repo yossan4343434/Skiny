@@ -26,16 +26,16 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
         loadData()
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
     func loadData() {
         if let path = NSBundle.mainBundle().pathForResource("sample", ofType: "json") {
             if let jsonData = NSData(contentsOfFile: path) {
                 sampleData = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.AllowFragments, error: nil) as! NSArray
             }
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
