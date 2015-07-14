@@ -18,7 +18,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
         super.viewDidLoad()
 
         let nib: UINib = UINib(nibName: "SKUserItemListCell", bundle: nil)
-        self.userItemListTableView.registerNib(nib, forCellReuseIdentifier: "UserItemListCell")
+        self.userItemListTableView.registerNib(nib, forCellReuseIdentifier: "userItemListCell")
 
         self.userItemListTableView.delegate = self
         self.userItemListTableView.dataSource = self
@@ -48,7 +48,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: SKUserItemListCell = tableView.dequeueReusableCellWithIdentifier("UserItemListCell", forIndexPath: indexPath) as! SKUserItemListCell
+        let cell: SKUserItemListCell = tableView.dequeueReusableCellWithIdentifier("userItemListCell", forIndexPath: indexPath) as! SKUserItemListCell
 
         cell.userItemCategoryLabel.text = userItems[indexPath.row]["category"] as? String
         cell.userItemBrandLabel.text = userItems[indexPath.row]["brand"] as? String
@@ -64,7 +64,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("item tapped")
+        performSegueWithIdentifier("itemDetail", sender: nil)
     }
     
 }
