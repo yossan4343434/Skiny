@@ -30,7 +30,11 @@
                             <constraint firstItem="5y9-cF-RrH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rq2-h3-IbC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" systemItem="favorites" id="aS8-ZD-4nN"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_bar_item_list" id="aS8-ZD-4nN">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tab_bar_item_list"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="userItemListTableView" destination="5y9-cF-RrH" id="gV1-EC-OKW"/>
                     </connections>
@@ -54,7 +58,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynx-c2-Yrt">
                                 <rect key="frame" x="15" y="79" width="569" height="120"/>
                                 <subviews>
-                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectCategory" translatesAutoresizingMaskIntoConstraints="NO" id="xpg-3q-ThG">
+                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_category" translatesAutoresizingMaskIntoConstraints="NO" id="xpg-3q-ThG">
                                         <rect key="frame" x="0.0" y="0.0" width="569" height="120"/>
                                         <gestureRecognizers/>
                                     </imageView>
@@ -85,7 +89,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-Rd-xfr">
                                 <rect key="frame" x="15" y="214" width="570" height="120"/>
                                 <subviews>
-                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectBrand" translatesAutoresizingMaskIntoConstraints="NO" id="eF3-Jf-1e8">
+                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_brand" translatesAutoresizingMaskIntoConstraints="NO" id="eF3-Jf-1e8">
                                         <rect key="frame" x="0.0" y="0.0" width="570" height="120"/>
                                     </imageView>
                                     <label userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOp-PP-EtO">
@@ -115,7 +119,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DT-ID-seh">
                                 <rect key="frame" x="15" y="349" width="570" height="120"/>
                                 <subviews>
-                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectCosmetic" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-Ve-b63">
+                                    <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_cosmetic" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-Ve-b63">
                                         <rect key="frame" x="0.0" y="0.0" width="570" height="120"/>
                                         <gestureRecognizers/>
                                     </imageView>
@@ -250,9 +254,9 @@
         <scene sceneID="qn3-15-G0r">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8gH-gf-26A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" title="" image="tabBarItem_plus" selectedImage="tabBarItem_plus" id="cjb-Su-gfy">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_bar_item_plus" id="cjb-Su-gfy">
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tabBarItem_plus"/>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tab_bar_item_plus"/>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
                     <toolbarItems/>
@@ -272,10 +276,11 @@
     </scenes>
     <resources>
         <image name="plus" width="400" height="400"/>
-        <image name="selectBrand" width="640" height="426"/>
-        <image name="selectCategory" width="5760" height="3840"/>
-        <image name="selectCosmetic" width="650" height="517"/>
-        <image name="tabBarItem_plus" width="30" height="30"/>
+        <image name="select_brand" width="640" height="426"/>
+        <image name="select_category" width="750" height="500"/>
+        <image name="select_cosmetic" width="650" height="517"/>
+        <image name="tab_bar_item_list" width="30" height="30"/>
+        <image name="tab_bar_item_plus" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="wMs-gd-R6a"/>

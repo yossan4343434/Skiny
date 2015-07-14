@@ -52,8 +52,8 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
         cell.userItemCategoryLabel.text = sampleData[indexPath.row]["category"] as? String
         cell.userItemBrandLabel.text = sampleData[indexPath.row]["brand"] as? String
         cell.userItemNameLabel.text = sampleData[indexPath.row]["name"] as? String
-        let imageName = sampleData[indexPath.row]["image"] as! String
-        cell.userItemImageView.image = UIImage(named: imageName)
+        let imageName = NSString(string: sampleData[indexPath.row]["image"] as! String)
+        cell.userItemImageView.image = UIImage(named: imageName as String)
 
         return cell
     }
