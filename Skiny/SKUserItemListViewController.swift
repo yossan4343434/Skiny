@@ -12,7 +12,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
 
     @IBOutlet weak var userItemListTableView: UITableView!
 
-    var sampleData: NSArray = NSArray()
+    var userItems = NSArray()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,8 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
     func loadData() {
         if let path = NSBundle.mainBundle().pathForResource("sample", ofType: "json") {
             if let jsonData = NSData(contentsOfFile: path) {
-                sampleData = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.AllowFragments, error: nil) as! NSArray
+                let jsonResult = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.AllowFragments, error: nil) as! NSDictionary
+                userItems = jsonResult["user_item"] as! NSArray
             }
         }
     }
@@ -43,16 +44,16 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return sampleData.count
+        return userItems.count
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: SKUserItemListCell = tableView.dequeueReusableCellWithIdentifier("UserItemListCell", forIndexPath: indexPath) as! SKUserItemListCell
 
-        cell.userItemCategoryLabel.text = sampleData[indexPath.row]["category"] as? String
-        cell.userItemBrandLabel.text = sampleData[indexPath.row]["brand"] as? String
-        cell.userItemNameLabel.text = sampleData[indexPath.row]["name"] as? String
-        let imageName = NSString(string: sampleData[indexPath.row]["image"] as! String)
+        cell.userItemCategoryLabel.text = userItems[indexPath.row]["category"] as? String
+        cell.userItemBrandLabel.text = userItems[indexPath.row]["brand"] as? String
+        cell.userItemNameLabel.text = userItems[indexPath.row]["name"] as? String
+        let imageName = NSString(string: userItems[indexPath.row]["image"] as! String)
         cell.userItemImageView.image = UIImage(named: imageName as String)
 
         return cell
