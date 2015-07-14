@@ -81,7 +81,20 @@ class SKSelectItemListViewController: UIViewController, UITableViewDelegate, UIT
         if segue.identifier == "didSelectContent" {
             var addItemViewController = SKAddItemViewController()
             addItemViewController = segue.destinationViewController as! SKAddItemViewController
-            addItemViewController.categoryLabel.text = selectedContent as String
+
+            switch selectItemType {
+            case 0:
+                addItemViewController.categoryLabel.text = selectedContent as String
+                break
+            case 1:
+                addItemViewController.brandLabel.text = selectedContent as String
+                break
+            case 2:
+                addItemViewController.nameLabel.text = selectedContent as String
+                break
+            default:
+                break
+            }
         }
     }
 
