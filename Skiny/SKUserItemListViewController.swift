@@ -65,6 +65,7 @@ class SKUserItemListViewController: UIViewController, UITableViewDelegate, UITab
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         performSegueWithIdentifier("itemDetail", sender: nil)
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
 }
