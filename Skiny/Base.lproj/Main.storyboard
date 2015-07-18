@@ -30,7 +30,9 @@
                             <constraint firstItem="5y9-cF-RrH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ogb-bP-ysK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="AMD-Pc-gjx"/>
+                    <navigationItem key="navigationItem" id="AMD-Pc-gjx">
+                        <barButtonItem key="backBarButtonItem" title=" " id="NNY-7j-qFR"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="userItemListTableView" destination="5y9-cF-RrH" id="gV1-EC-OKW"/>
                         <segue destination="Nc4-GC-suX" kind="show" identifier="itemDetail" id="Yjb-FP-iyg"/>
